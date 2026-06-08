@@ -1,60 +1,248 @@
 {
   "usuarios": [
-    { "id": 1, "NomeCompleto": "Carlos Silva", "Email": "carlos@email.com", "SenhaHash": "***", "DataCadastro": "2026-01-15" },
-    { "id": 2, "NomeCompleto": "Ana Oliveira", "Email": "ana@email.com", "SenhaHash": "***", "DataCadastro": "2026-02-10" },
-    { "id": 3, "NomeCompleto": "Prof. João Santos", "Email": "joao@email.com", "SenhaHash": "***", "DataCadastro": "2026-01-01" }
+    {
+      "id": 2,
+      "NomeCompleto": "Ana Oliveira",
+      "Email": "ana@email.com",
+      "SenhaHash": "***",
+      "DataCadastro": "2026-02-10"
+    },
+    {
+      "id": 3,
+      "NomeCompleto": "Prof. João Santos",
+      "Email": "joao@email.com",
+      "SenhaHash": "***",
+      "DataCadastro": "2026-01-01"
+    }
   ],
   "categorias": [
-    { "id": 1, "Nome": "Programação", "Descricao": "Cursos de desenvolvimento de software" },
-    { "id": 2, "Nome": "Design", "Descricao": "Cursos de design gráfico e UX/UI" },
-    { "id": 3, "Nome": "Marketing", "Descricao": "Cursos de marketing digital" }
+    {
+      "id": 1,
+      "Nome": "Programação",
+      "Descricao": "Cursos de desenvolvimento de software"
+    },
+    {
+      "id": 2,
+      "Nome": "Design",
+      "Descricao": "Cursos de design gráfico e UX/UI"
+    },
+    {
+      "id": 3,
+      "Nome": "Marketing",
+      "Descricao": "Cursos de marketing digital"
+    }
   ],
   "cursos": [
-    { "id": 1, "Titulo": "JavaScript Avançado", "Descricao": "Domine JS moderno com ES6+", "ID_Instrutor": 3, "ID_Categoria": 1, "Nivel": "Avançado", "DataPublicacao": "2026-01-20", "TotalAulas": 5, "TotalHoras": 10 },
-    { "id": 2, "Titulo": "UI/UX Fundamentos", "Descricao": "Aprenda os fundamentos de design", "ID_Instrutor": 3, "ID_Categoria": 2, "Nivel": "Iniciante", "DataPublicacao": "2026-02-15", "TotalAulas": 3, "TotalHoras": 6 }
+    {
+      "id": 1,
+      "Titulo": "JavaScript Avançado",
+      "Descricao": "Domine JS moderno com ES6+",
+      "ID_Instrutor": 3,
+      "ID_Categoria": 1,
+      "Nivel": "Avançado",
+      "DataPublicacao": "2026-01-20",
+      "TotalAulas": 5,
+      "TotalHoras": 10
+    },
+    {
+      "id": 2,
+      "Titulo": "UI/UX Fundamentos",
+      "Descricao": "Aprenda os fundamentos de design",
+      "ID_Instrutor": 3,
+      "ID_Categoria": 2,
+      "Nivel": "Iniciante",
+      "DataPublicacao": "2026-02-15",
+      "TotalAulas": 3,
+      "TotalHoras": 6
+    }
   ],
   "modulos": [
-    { "id": 1, "ID_Curso": 1, "Titulo": "Fundamentos ES6+", "Ordem": 1 },
-    { "id": 2, "ID_Curso": 1, "Titulo": "Programação Assíncrona", "Ordem": 2 },
-    { "id": 3, "ID_Curso": 2, "Titulo": "Princípios de Design", "Ordem": 1 }
+    {
+      "id": 1,
+      "ID_Curso": 1,
+      "Titulo": "Fundamentos ES6+",
+      "Ordem": 1
+    },
+    {
+      "id": 2,
+      "ID_Curso": 1,
+      "Titulo": "Programação Assíncrona",
+      "Ordem": 2
+    },
+    {
+      "id": 3,
+      "ID_Curso": 2,
+      "Titulo": "Princípios de Design",
+      "Ordem": 1
+    }
   ],
   "aulas": [
-    { "id": 1, "ID_Modulo": 1, "Titulo": "Arrow Functions", "TipoConteudo": "Vídeo", "URL_Conteudo": "#", "DuracaoMinutos": 30, "Ordem": 1 },
-    { "id": 2, "ID_Modulo": 1, "Titulo": "Destructuring", "TipoConteudo": "Vídeo", "URL_Conteudo": "#", "DuracaoMinutos": 25, "Ordem": 2 },
-    { "id": 3, "ID_Modulo": 2, "Titulo": "Promises", "TipoConteudo": "Vídeo", "URL_Conteudo": "#", "DuracaoMinutos": 40, "Ordem": 1 },
-    { "id": 4, "ID_Modulo": 2, "Titulo": "Async/Await", "TipoConteudo": "Vídeo", "URL_Conteudo": "#", "DuracaoMinutos": 35, "Ordem": 2 },
-    { "id": 5, "ID_Modulo": 3, "Titulo": "Cores e Tipografia", "TipoConteudo": "Texto", "URL_Conteudo": "#", "DuracaoMinutos": 20, "Ordem": 1 }
+    {
+      "id": 1,
+      "ID_Modulo": 1,
+      "Titulo": "Arrow Functions",
+      "TipoConteudo": "Vídeo",
+      "URL_Conteudo": "#",
+      "DuracaoMinutos": 30,
+      "Ordem": 1
+    },
+    {
+      "id": 2,
+      "ID_Modulo": 1,
+      "Titulo": "Destructuring",
+      "TipoConteudo": "Vídeo",
+      "URL_Conteudo": "#",
+      "DuracaoMinutos": 25,
+      "Ordem": 2
+    },
+    {
+      "id": 3,
+      "ID_Modulo": 2,
+      "Titulo": "Promises",
+      "TipoConteudo": "Vídeo",
+      "URL_Conteudo": "#",
+      "DuracaoMinutos": 40,
+      "Ordem": 1
+    },
+    {
+      "id": 4,
+      "ID_Modulo": 2,
+      "Titulo": "Async/Await",
+      "TipoConteudo": "Vídeo",
+      "URL_Conteudo": "#",
+      "DuracaoMinutos": 35,
+      "Ordem": 2
+    },
+    {
+      "id": 5,
+      "ID_Modulo": 3,
+      "Titulo": "Cores e Tipografia",
+      "TipoConteudo": "Texto",
+      "URL_Conteudo": "#",
+      "DuracaoMinutos": 20,
+      "Ordem": 1
+    }
   ],
   "matriculas": [
-    { "id": 1, "ID_Usuario": 1, "ID_Curso": 1, "DataMatricula": "2026-02-01", "DataConclusao": null },
-    { "id": 2, "ID_Usuario": 2, "ID_Curso": 2, "DataMatricula": "2026-02-20", "DataConclusao": null },
-    { "id": 3, "ID_Usuario": 1, "ID_Curso": 2, "DataMatricula": "2026-03-01", "DataConclusao": null }
+    {
+      "id": 1,
+      "ID_Usuario": 1,
+      "ID_Curso": 1,
+      "DataMatricula": "2026-02-01",
+      "DataConclusao": null
+    },
+    {
+      "id": 2,
+      "ID_Usuario": 2,
+      "ID_Curso": 2,
+      "DataMatricula": "2026-02-20",
+      "DataConclusao": null
+    },
+    {
+      "id": 3,
+      "ID_Usuario": 1,
+      "ID_Curso": 2,
+      "DataMatricula": "2026-03-01",
+      "DataConclusao": null
+    }
   ],
   "progresso_aulas": [
-    { "id": 1, "ID_Usuario": 1, "ID_Aula": 1, "DataConclusao": "2026-02-05", "Status": "Concluído" },
-    { "id": 2, "ID_Usuario": 1, "ID_Aula": 2, "DataConclusao": "2026-02-06", "Status": "Concluído" }
+    {
+      "id": 1,
+      "ID_Usuario": 1,
+      "ID_Aula": 1,
+      "DataConclusao": "2026-02-05",
+      "Status": "Concluído"
+    },
+    {
+      "id": 2,
+      "ID_Usuario": 1,
+      "ID_Aula": 2,
+      "DataConclusao": "2026-02-06",
+      "Status": "Concluído"
+    }
   ],
   "avaliacoes": [
-    { "id": 1, "ID_Usuario": 1, "ID_Curso": 1, "Nota": 5, "Comentario": "Excelente curso!", "DataAvaliacao": "2026-02-10" }
+    {
+      "id": 1,
+      "ID_Usuario": 1,
+      "ID_Curso": 1,
+      "Nota": 5,
+      "Comentario": "Excelente curso!",
+      "DataAvaliacao": "2026-02-10"
+    }
   ],
   "trilhas": [
-    { "id": 1, "Titulo": "Desenvolvedor Frontend", "Descricao": "Trilha completa para frontend", "ID_Categoria": 1 }
+    {
+      "id": 1,
+      "Titulo": "Desenvolvedor Frontend",
+      "Descricao": "Trilha completa para frontend",
+      "ID_Categoria": 1
+    }
   ],
   "trilhas_cursos": [
-    { "id": 1, "ID_Trilha": 1, "ID_Curso": 1, "Ordem": 1 },
-    { "id": 2, "ID_Trilha": 1, "ID_Curso": 2, "Ordem": 2 }
+    {
+      "id": 1,
+      "ID_Trilha": 1,
+      "ID_Curso": 1,
+      "Ordem": 1
+    },
+    {
+      "id": 2,
+      "ID_Trilha": 1,
+      "ID_Curso": 2,
+      "Ordem": 2
+    }
   ],
   "certificados": [],
   "planos": [
-    { "id": 1, "Nome": "Básico", "Descricao": "Acesso a cursos básicos", "Preco": 29.9, "DuracaoMeses": 1 },
-    { "id": 2, "Nome": "Pro", "Descricao": "Acesso a todos os cursos", "Preco": 59.9, "DuracaoMeses": 6 },
-    { "id": 3, "Nome": "Premium", "Descricao": "Acesso total + certificados", "Preco": 99.9, "DuracaoMeses": 12 }
+    {
+      "id": 1,
+      "Nome": "Básico",
+      "Descricao": "Acesso a cursos básicos",
+      "Preco": 29.9,
+      "DuracaoMeses": 1
+    },
+    {
+      "id": 2,
+      "Nome": "Pro",
+      "Descricao": "Acesso a todos os cursos",
+      "Preco": 59.9,
+      "DuracaoMeses": 6
+    },
+    {
+      "id": 3,
+      "Nome": "Premium",
+      "Descricao": "Acesso total + certificados",
+      "Preco": 99.9,
+      "DuracaoMeses": 12
+    }
   ],
   "assinaturas": [
-    { "id": 1, "ID_Usuario": 1, "ID_Plano": 2, "DataInicio": "2026-01-15", "DataFim": "2026-07-15" },
-    { "id": 2, "ID_Usuario": 2, "ID_Plano": 3, "DataInicio": "2026-02-10", "DataFim": "2027-02-10" }
+    {
+      "id": 1,
+      "ID_Usuario": 1,
+      "ID_Plano": 2,
+      "DataInicio": "2026-01-15",
+      "DataFim": "2026-07-15"
+    },
+    {
+      "id": 2,
+      "ID_Usuario": 2,
+      "ID_Plano": 3,
+      "DataInicio": "2026-02-10",
+      "DataFim": "2027-02-10"
+    }
   ],
   "pagamentos": [
-    { "id": 1, "ID_Assinatura": 1, "ValorPago": 59.9, "DataPagamento": "2026-01-15", "MetodoPagamento": "PIX", "Id_Transacao_Gateway": "TXN-SEED0001", "DataFim": "2026-07-15" }
+    {
+      "id": 1,
+      "ID_Assinatura": 1,
+      "ValorPago": 59.9,
+      "DataPagamento": "2026-01-15",
+      "MetodoPagamento": "PIX",
+      "Id_Transacao_Gateway": "TXN-SEED0001",
+      "DataFim": "2026-07-15"
+    }
   ]
 }
