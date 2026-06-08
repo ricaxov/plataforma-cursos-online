@@ -1,5 +1,24 @@
 # Ricardo Plataforma — Cursos Online
 
+> # ⚠️⚠️ ATENÇÃO — LEIA ANTES DE RODAR ⚠️⚠️
+>
+> ## 👉 PARA O PROJETO FUNCIONAR, USE OBRIGATORIAMENTE:
+>
+> ```bash
+> npm install
+> npm start
+> ```
+>
+> ### ❗ O comando `npm start` é OBRIGATÓRIO ❗
+> Ele sobe **a aplicação (Vite) E a API (JSON Server) AO MESMO TEMPO**.
+>
+> **NÃO use só `npm run dev`** — sem o JSON Server rodando, NADA carrega (as telas ficam vazias / dão erro de API).
+>
+> - Front-end: **http://localhost:5173**
+> - API (JSON Server): **http://localhost:3001**
+
+---
+
 Interface funcional de uma **Plataforma de Cursos Online** desenvolvida com **React + TypeScript**, **Bootstrap 5**, **React Router** e consumo de API via **JSON Server**.
 
 Projeto referente ao LAB03, cobrindo os módulos Acadêmico/Conteúdo, Usuário/Progresso e Financeiro a partir das 14 entidades do modelo de dados.
