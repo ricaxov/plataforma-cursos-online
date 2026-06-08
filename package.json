@@ -10,7 +10,6 @@
     "start": "concurrently -n SERVER,VITE -c green,cyan \"npm:server\" \"npm:dev\"",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "autosave": "node scripts/autocommit.mjs",
     "lint": "eslint ."
   },
   "dependencies": {
